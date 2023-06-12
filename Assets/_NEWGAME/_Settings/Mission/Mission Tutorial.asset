@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4426f975e112ae468c5ed359fa3e6e9, type: 3}
+  m_Name: Mission Tutorial
+  m_EditorClassIdentifier: 
+  <Mission>k__BackingField:
+    order: 0
+    cash: 0
+    subMissions:
+    - rid: 8970675888952705032
+    - rid: 6368625679674376203
+    - rid: 8970675888952705038
+    - rid: 6368625679674376196
+    - rid: 6368625791994691584
+    - rid: 6368625864435302400
+    - rid: 6368625791994691585
+    - rid: 6368625679674376204
+  references:
+    version: 2
+    RefIds:
+    - rid: 6368625679674376196
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 1
+        questDescription: Kill Bing Chilling
+        rewardCash: 100
+        <Count>k__BackingField: 1
+        <Type>k__BackingField: 52
+    - rid: 6368625679674376203
+      type: {class: GoToQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 1
+        questDescription: Go to Mission
+        rewardCash: 100
+        waypointName: w229
+        <Position>k__BackingField: {x: -80.00982, y: 7.189338, z: 336.44022}
+    - rid: 6368625679674376204
+      type: {class: RunQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Run 20m
+        rewardCash: 1000
+        <Distance>k__BackingField: 20
+    - rid: 6368625791994691584
+      type: {class: ChangeWeaponSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 0
+        questDescription: 
+        rewardCash: 0
+    - rid: 6368625791994691585
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill BingChilling
+        rewardCash: 1000
+        <Count>k__BackingField: 1
+        <Type>k__BackingField: 52
+    - rid: 6368625864435302400
+      type: {class: SpawnNpc, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: 
+        rewardCash: 0
+        SpawnEnemySetting:
+          enemySpawns:
+          - enemySetting: {fileID: 11400000, guid: f0f8bd37fcb5a004cbfd3a6dfc3dcd33,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+    - rid: 8970675888952705032
+      type: {class: SpawnTommyAtSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: Go to Mission
+        rewardCash: 0
+        waypointName: w228
+        <Position>k__BackingField: {x: -69.20856, y: 7.014994, z: 320.09427}
+    - rid: 8970675888952705038
+      type: {class: SpawnNpc, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: 
+        rewardCash: 0
+        SpawnEnemySetting:
+          enemySpawns:
+          - enemySetting: {fileID: 11400000, guid: f0f8bd37fcb5a004cbfd3a6dfc3dcd33,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1

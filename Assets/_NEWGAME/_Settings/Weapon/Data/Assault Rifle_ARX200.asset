@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: Assault Rifle_ARX200
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: ARX200
+    weaponType: 2
+    <Price>k__BackingField:
+      Balance: 85000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: cf2f1e8372960f94cb909a62add540ca, type: 3}
+    ImageFront: {fileID: 21300000, guid: a7bcad673e4d5e3408989e029ee5964e, type: 3}
+    ImageFrontYellowGlow: {fileID: 21300000, guid: dbd29be927a796e4cb1c9556e6248dc7,
+      type: 3}
+    <Model>k__BackingField: {fileID: 6007133944962079498, guid: 10871d4226ed35d418b30437311a7eec,
+      type: 3}
+    FireRate: 0.125
+    ReloadSeconds: 1
+    Damage: 100
+    ClipSize: 35
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 2

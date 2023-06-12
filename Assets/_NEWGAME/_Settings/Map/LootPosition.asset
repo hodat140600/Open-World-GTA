@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8643c5f0d8a5492d8e642c051b4ab204, type: 3}
+  m_Name: LootPosition
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    Waypoints:
+    - <Name>k__BackingField: 0
+      Position: {x: -42.884785, y: 7.1277986, z: 275.30426}
+      neighbourIds: 
+    - <Name>k__BackingField: b2
+      Position: {x: 7.5168686, y: 7.1465526, z: 341.60208}
+      neighbourIds: 
+    - <Name>k__BackingField: b3
+      Position: {x: 8.638229, y: 7.0804667, z: 243.87022}
+      neighbourIds: 
+    - <Name>k__BackingField: b4
+      Position: {x: -79.12125, y: 7.18934, z: 323.77136}
+      neighbourIds: 
+    - <Name>k__BackingField: b5
+      Position: {x: -172.54922, y: 7.076767, z: 256.42664}
+      neighbourIds: 
+    - <Name>k__BackingField: b6
+      Position: {x: -223.58725, y: 7.098239, z: 262.42526}
+      neighbourIds: 
+    - <Name>k__BackingField: b7
+      Position: {x: -310.28525, y: 7.1086254, z: 46.884052}
+      neighbourIds: 
+    - <Name>k__BackingField: b8
+      Position: {x: -242.47864, y: 7.1755333, z: 57.66744}
+      neighbourIds: 
+    - <Name>k__BackingField: b9
+      Position: {x: -200.3801, y: 7.0860286, z: 40.88979}
+      neighbourIds: 
+    - <Name>k__BackingField: b10
+      Position: {x: -78.853195, y: 7.0924597, z: 63.953476}
+      neighbourIds: 
+    - <Name>k__BackingField: b11
+      Position: {x: -64.54731, y: 7.1427536, z: 67.57446}
+      neighbourIds: 
+    - <Name>k__BackingField: b12
+      Position: {x: -68.08892, y: 7.091479, z: 57.815525}
+      neighbourIds: 
+    - <Name>k__BackingField: b13
+      Position: {x: -27.311752, y: 7.083601, z: 131.81323}
+      neighbourIds: 
+    - <Name>k__BackingField: b14
+      Position: {x: -18.667152, y: 7.1411605, z: 135.93365}
+      neighbourIds: 
+    - <Name>k__BackingField: b15
+      Position: {x: -61.41625, y: 7.1277328, z: 189.89334}
+      neighbourIds: 
+    - <Name>k__BackingField: b16
+      Position: {x: -67.07837, y: 7.0645714, z: 184.14078}
+      neighbourIds: 
+    - <Name>k__BackingField: b17
+      Position: {x: 42.687416, y: 7.106214, z: 210.69028}
+      neighbourIds: 
+    - <Name>k__BackingField: b18
+      Position: {x: 45.4617, y: 7.1046557, z: 148.67259}
+      neighbourIds: 
+    - <Name>k__BackingField: b19
+      Position: {x: 87.9827, y: 7.1015854, z: 129.87111}
+      neighbourIds: 
+    - <Name>k__BackingField: b20
+      Position: {x: 46.34319, y: 7.1647964, z: 47.182003}
+      neighbourIds: 
+    - <Name>k__BackingField: 1
+      Position: {x: 81.30499, y: 7.2047725, z: 278.4553}
+      neighbourIds: 
+    - <Name>k__BackingField: 7
+      Position: {x: 39.601315, y: 7.2047834, z: 268.72876}
+      neighbourIds: 
+    - <Name>k__BackingField: 8
+      Position: {x: 8.005264, y: 7.2047725, z: 288.4914}
+      neighbourIds: 
+    - <Name>k__BackingField: 12
+      Position: {x: -33.902733, y: 7.2047725, z: 234.17316}
+      neighbourIds: 
+    - <Name>k__BackingField: 13
+      Position: {x: -45.31109, y: 7.2047725, z: 223.82007}
+      neighbourIds: 
+    - <Name>k__BackingField: 18
+      Position: {x: -83.712944, y: 7.2047725, z: 269.28177}
+      neighbourIds: 
+    - <Name>k__BackingField: 19
+      Position: {x: -72.4861, y: 7.2047725, z: 278.59476}
+      neighbourIds: 
+    - <Name>k__BackingField: 20
+      Position: {x: -27.86707, y: 7.1550183, z: 202.5542}
+      neighbourIds: 
+    - <Name>k__BackingField: 23
+      Position: {x: -3.9542713, y: 7.2047725, z: 169.66435}
+      neighbourIds: 
+    - <Name>k__BackingField: 24
+      Position: {x: 13.856599, y: 7.2047725, z: 160.50206}
+      neighbourIds: 
+    - <Name>k__BackingField: 28
+      Position: {x: 68.52431, y: 7.204769, z: 184.78278}
+      neighbourIds: 
+    - <Name>k__BackingField: 29
+      Position: {x: 118.141426, y: 7.2047725, z: 177.46808}
+      neighbourIds: 
+    - <Name>k__BackingField: 33
+      Position: {x: -7.256912, y: 7.2047725, z: 281.15652}
+      neighbourIds: 
+    - <Name>k__BackingField: 41
+      Position: {x: -28.504559, y: 7.2047725, z: 329.8923}
+      neighbourIds: 
+    - <Name>k__BackingField: 44
+      Position: {x: -35.917263, y: 7.2047725, z: 378.05447}
+      neighbourIds: 
+    - <Name>k__BackingField: 45
+      Position: {x: -51.011368, y: 7.2047725, z: 379.2395}
+      neighbourIds: 
+    - <Name>k__BackingField: 48
+      Position: {x: -47.01341, y: 7.2047725, z: 320.52173}
+      neighbourIds: 
+    - <Name>k__BackingField: 52
+      Position: {x: -94.84639, y: 7.164858, z: 310.4594}
+      neighbourIds: 
+    - <Name>k__BackingField: 54
+      Position: {x: -129.5005, y: 7.2047725, z: 342.1602}
+      neighbourIds: 
+    - <Name>k__BackingField: 56
+      Position: {x: -94.927925, y: 7.2047725, z: 280.84903}
+      neighbourIds: 
+    - <Name>k__BackingField: 57
+      Position: {x: -124.26924, y: 7.2047725, z: 261.94684}
+      neighbourIds: 
+    - <Name>k__BackingField: 61
+      Position: {x: -164.19199, y: 7.2047725, z: 221.05504}
+      neighbourIds: 
+    - <Name>k__BackingField: 63
+      Position: {x: -170.28094, y: 7.2047725, z: 234.98573}
+      neighbourIds: 
+    - <Name>k__BackingField: 66
+      Position: {x: -134.85136, y: 7.2047725, z: 255.47073}
+      neighbourIds: 
+    - <Name>k__BackingField: 67
+      Position: {x: -122.660645, y: 7.0149927, z: 239.39621}
+      neighbourIds: 
+    - <Name>k__BackingField: 68
+      Position: {x: -140.5015, y: 7.2047725, z: 158.72202}
+      neighbourIds: 
+    - <Name>k__BackingField: 70
+      Position: {x: -65.641235, y: 7.0149918, z: 188.48087}
+      neighbourIds: 
+    - <Name>k__BackingField: 71
+      Position: {x: -22.642395, y: 7.0149903, z: 131.03653}
+      neighbourIds: 
+    - <Name>k__BackingField: 72
+      Position: {x: 1.7949767, y: 7.2047725, z: 95.32609}
+      neighbourIds: 
+    - <Name>k__BackingField: 73
+      Position: {x: -50.416725, y: 7.204772, z: 125.5352}
+      neighbourIds: 
+    - <Name>k__BackingField: 74
+      Position: {x: -97.45814, y: 7.2047725, z: 181.72072}
+      neighbourIds: 
+    - <Name>k__BackingField: 77
+      Position: {x: 18.04368, y: 7.2047725, z: 83.773155}
+      neighbourIds: 
+    - <Name>k__BackingField: 78
+      Position: {x: 78.05123, y: 7.2047725, z: 79.362434}
+      neighbourIds: 
+    - <Name>k__BackingField: 79
+      Position: {x: 99.513405, y: 7.2043324, z: 84.33749}
+      neighbourIds: 
+    - <Name>k__BackingField: 81
+      Position: {x: 139.72401, y: 7.2047725, z: 113.812454}
+      neighbourIds: 
+    - <Name>k__BackingField: 82
+      Position: {x: -13.466061, y: 7.2047725, z: 254.04022}
+      neighbourIds: 
+    - <Name>k__BackingField: 83
+      Position: {x: -48.17729, y: 7.204772, z: 356.8947}
+      neighbourIds: 
+    - <Name>k__BackingField: 84
+      Position: {x: -159.51251, y: 7.2047725, z: 323.7314}
+      neighbourIds: 
+    - <Name>k__BackingField: 85
+      Position: {x: -127.2444, y: 7.2047725, z: 104.22738}
+      neighbourIds: 
+    - <Name>k__BackingField: 86
+      Position: {x: -120.019615, y: 7.2047725, z: 16.085882}
+      neighbourIds: 
+    - <Name>k__BackingField: 87
+      Position: {x: -135.47357, y: 7.2047725, z: 16.600266}
+      neighbourIds: 
+    - <Name>k__BackingField: 88
+      Position: {x: -140.50737, y: 7.2047725, z: 93.98602}
+      neighbourIds: 
+    - <Name>k__BackingField: 89
+      Position: {x: -185.33679, y: 7.204772, z: 86.151}
+      neighbourIds: 
+    - <Name>k__BackingField: 91
+      Position: {x: -278.64908, y: 7.2047725, z: 72.467255}
+      neighbourIds: 
+    - <Name>k__BackingField: 92
+      Position: {x: -270.63037, y: 7.135772, z: 16.07008}
+      neighbourIds: 
+    - <Name>k__BackingField: 95
+      Position: {x: -146.27628, y: 7.2047725, z: 123.0712}
+      neighbourIds: 
+    - <Name>k__BackingField: 96
+      Position: {x: -164.20743, y: 7.2047725, z: 180.9228}
+      neighbourIds: 
+    - <Name>k__BackingField: 97
+      Position: {x: -193.22401, y: 7.204772, z: 246.7239}
+      neighbourIds: 
+    - <Name>k__BackingField: 98
+      Position: {x: -221.76376, y: 7.2047725, z: 293.97214}
+      neighbourIds: 
+    - <Name>k__BackingField: 101
+      Position: {x: -322.0471, y: 7.2047725, z: 241.23215}
+      neighbourIds: 
+    - <Name>k__BackingField: 103
+      Position: {x: -294.1007, y: 7.2047725, z: 157.0855}
+      neighbourIds: 
+    - <Name>k__BackingField: 105
+      Position: {x: -234.17221, y: 7.2047725, z: 94.74797}
+      neighbourIds: 
+    - <Name>k__BackingField: 107
+      Position: {x: -347.24213, y: 7.204773, z: 226.77628}
+      neighbourIds: 
+    - <Name>k__BackingField: 108
+      Position: {x: -375.66223, y: 7.206268, z: 189.70514}
+      neighbourIds: 
+    - <Name>k__BackingField: 109
+      Position: {x: -363.84555, y: 7.204773, z: 124.26033}
+      neighbourIds: 
+    - <Name>k__BackingField: 110
+      Position: {x: -337.20428, y: 7.204773, z: 29.799706}
+      neighbourIds: 
+    - <Name>k__BackingField: 112
+      Position: {x: -298.78888, y: 7.204773, z: 97.56296}
+      neighbourIds: 
+    - <Name>k__BackingField: 113
+      Position: {x: -312.34695, y: 7.2047725, z: 171.7128}
+      neighbourIds: 
+    - <Name>k__BackingField: 114
+      Position: {x: -339.5368, y: 7.014991, z: 145.52176}
+      neighbourIds: 
+    - <Name>k__BackingField: 115
+      Position: {x: -333.01862, y: 7.01499, z: 102.57324}
+      neighbourIds: 
+    - <Name>k__BackingField: 116
+      Position: {x: -194.4678, y: 7.135772, z: 15.990651}
+      neighbourIds: 
+    - <Name>k__BackingField: 117
+      Position: {x: -99.99567, y: 7.106773, z: 204.41064}
+      neighbourIds: 
+    - <Name>k__BackingField: 118
+      Position: {x: 72.60341, y: 7.2096367, z: 12.673908}
+      neighbourIds: 
+    - <Name>k__BackingField: 119
+      Position: {x: 16.079792, y: 7.2739425, z: 15.539219}
+      neighbourIds: 

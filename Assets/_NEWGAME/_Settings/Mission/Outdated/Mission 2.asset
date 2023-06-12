@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4426f975e112ae468c5ed359fa3e6e9, type: 3}
+  m_Name: Mission 2
+  m_EditorClassIdentifier: 
+  <Mission>k__BackingField:
+    order: 2
+    reward:
+      Cash: 12000
+    subMissions:
+    - rid: 6368625360065265664
+    - rid: 6368625360065265665
+    - rid: 6368625360065265671
+    - rid: 6368625479662698496
+    - rid: 6368625479662698506
+    - rid: 6368625479662698497
+    - rid: 3192884553337012228
+  references:
+    version: 2
+    RefIds:
+    - rid: 3192884553337012228
+      type: {class: KillNpcSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        <Count>k__BackingField: 12
+        <Type>k__BackingField: 61
+    - rid: 6368625360065265664
+      type: {class: SpawnTommyAtSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        waypointName: w3
+        <Position>k__BackingField: {x: 81.39658, y: 7.2047725, z: 278.27008}
+    - rid: 6368625360065265665
+      type: {class: GoToSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        waypointName: w96
+        <Position>k__BackingField: {x: -6.724928, y: 7.2047725, z: 280.71274}
+    - rid: 6368625360065265671
+      type: {class: SpawnNpcGroupSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <NpcGroupSettings>k__BackingField: {fileID: 11400000, guid: 0b9df35ead08d7a449c7db93a6ebaf24,
+          type: 2}
+        atWaypointName: w113
+        <AtPosition>k__BackingField: {x: 2.1652627, y: 7.2047725, z: 269.12546}
+    - rid: 6368625479662698496
+      type: {class: SpawnNpcGroupSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <NpcGroupSettings>k__BackingField: {fileID: 11400000, guid: 0b9df35ead08d7a449c7db93a6ebaf24,
+          type: 2}
+        atWaypointName: w6
+        <AtPosition>k__BackingField: {x: 7.029693, y: 7.2047725, z: 287.74542}
+    - rid: 6368625479662698497
+      type: {class: SpawnNpcGroupSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <NpcGroupSettings>k__BackingField: {fileID: 11400000, guid: 0b9df35ead08d7a449c7db93a6ebaf24,
+          type: 2}
+        atWaypointName: w97
+        <AtPosition>k__BackingField: {x: -29.804132, y: 7.2047725, z: 313.4723}
+    - rid: 6368625479662698506
+      type: {class: SpawnNpcGroupSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <NpcGroupSettings>k__BackingField: {fileID: 11400000, guid: 0b9df35ead08d7a449c7db93a6ebaf24,
+          type: 2}
+        atWaypointName: w5
+        <AtPosition>k__BackingField: {x: 11.986111, y: 7.2047725, z: 288.41107}

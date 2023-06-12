@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: Rocket_Javelin
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: Javelin
+    weaponType: 4
+    <Price>k__BackingField:
+      Balance: 150000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: c0b41f359fad40a419e590271a17aaf7, type: 3}
+    ImageFront: {fileID: 21300000, guid: 3661057b649363d409c26055f02f7684, type: 3}
+    ImageFrontYellowGlow: {fileID: 21300000, guid: d94f22d366355d54db1d5b2e3e3180a6,
+      type: 3}
+    <Model>k__BackingField: {fileID: 8618042129168341338, guid: 00b8d6a471e4a454cb5667b716155ad3,
+      type: 3}
+    FireRate: 1.5
+    ReloadSeconds: 1
+    Damage: 1000
+    ClipSize: 200
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 4

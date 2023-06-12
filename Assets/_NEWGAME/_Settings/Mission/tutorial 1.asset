@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4426f975e112ae468c5ed359fa3e6e9, type: 3}
+  m_Name: tutorial 1
+  m_EditorClassIdentifier: 
+  <Mission>k__BackingField:
+    order: 0
+    reward:
+      Cash: 4000
+    subMissions:
+    - rid: 6368625360065265664
+    - rid: 6368625385207496704
+    - rid: 6368625362596265984
+    - rid: 6368625360065265665
+    - rid: 6368625385207496706
+    - rid: 6368625385207496705
+    - rid: 6368625523023937537
+    - rid: 6368625362596265985
+  references:
+    version: 2
+    RefIds:
+    - rid: 6368625360065265664
+      type: {class: SpawnTommyAtSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        waypointName: w77
+        <Position>k__BackingField: {x: -48.8269, y: 7.2047725, z: 319.99942}
+    - rid: 6368625360065265665
+      type: {class: GoToSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        waypointName: w76
+        <Position>k__BackingField: {x: -44.2787, y: 7.2047725, z: 325.89215}
+    - rid: 6368625362596265984
+      type: {class: ShowDescription, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <description>k__BackingField: GO TO THE YELLOW INDICATOR TO TAKE MISSION
+    - rid: 6368625362596265985
+      type: {class: ShowDescription, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <description>k__BackingField: KILL AS MUCH BINGCHILLINGS BEFORE 9PM
+    - rid: 6368625385207496704
+      type: {class: DelaySubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        <DelaySeconds>k__BackingField: 1
+    - rid: 6368625385207496705
+      type: {class: DelaySubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        <DelaySeconds>k__BackingField: 1
+    - rid: 6368625385207496706
+      type: {class: ShowDescription, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        <description>k__BackingField: ' '
+    - rid: 6368625523023937537
+      type: {class: SpawnNpc, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        SpawnEnemySetting: {fileID: 11400000, guid: f9ac90468e5116c49a29077750449c23,
+          type: 2}

@@ -1,0 +1,558 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5996058597788304895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754389392093493683}
+  m_Layer: 23
+  m_Name: Strip Club
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754389392093493683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996058597788304895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9122144623072214171}
+  - {fileID: 6957093736332520752}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6130228938840040985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5572520625922041280}
+  - component: {fileID: 6474904216196521880}
+  - component: {fileID: 2317449691462466839}
+  - component: {fileID: 5653332920229631071}
+  m_Layer: 23
+  m_Name: Strip Club_LOD_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5572520625922041280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130228938840040985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9122144623072214171}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6474904216196521880
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130228938840040985}
+  m_Mesh: {fileID: 4300000, guid: 4890ab75604e581408fedee046898aa2, type: 2}
+--- !u!23 &2317449691462466839
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130228938840040985}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1dad656cad5a42a41aa8ff44a44935cf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5653332920229631071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130228938840040985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c05d127a4a4ea99fb37427208e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    optimize:
+      PercentTriangles: 0.5
+      AbsoluteTriangles: 0
+      MaxDeviation: 0
+      WeldingThreshold: 0
+      ScreenSizeInPixels: 0
+      HardAngleThreshold: 80
+      SilhouetteImportance: 3
+      TextureImportance: 3
+      ShadingImportance: 3
+      SkinningImportance: 3
+      SkeletonSettings:
+        LeafBoneWeldDistance: 0
+        MaximumBoneDepth: 0
+        MaximumBoneInfluencesPerVertex: 4
+        MinimumBoneInfluenceThreshold: 0
+        IgnoreJointIndicesCount: 0
+    remeshing:
+      SurfaceMode: 0
+      Resolution: 256
+      FaceCountTarget: 2
+      MaximumTriangles: 0
+      ScreenSizeInPixels: 0
+      ScreenSizePixelMergeDistance: 2
+      HardAngleThreshold: 70
+      WeldDistance: 0
+      GutterSizeInPixels: 2
+      UnwrapStrategy: 3
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 1
+    imposterize:
+      Type: 1
+      QuadXYCount: 1
+      QuadXZCount: 0
+      QuadYZCount: 1
+      CloudFaceCount: 700
+      CloudPolyFaceFactor: 0.5
+      QuadSubdivisionsU: 1
+      QuadSubdivisionsV: 1
+      AABBDisplacement: 0
+      FlipbookFramesPerAxis: 8
+      GutterSizeInPixels: 2
+      AlphaCutOutResolution: 16
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 0
+    operationType: 0
+--- !u!1 &7766280845492598666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6957093736332520752}
+  - component: {fileID: 547980890793792284}
+  m_Layer: 23
+  m_Name: strip_club_collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6957093736332520752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7766280845492598666}
+  m_LocalRotation: {x: 0.000000021855694, y: -1.1102232e-16, z: 1.1102232e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 754389392093493683}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &547980890793792284
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7766280845492598666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7172999976227664913, guid: 9f173c4dc912fc94faad438b724a4b70, type: 3}
+--- !u!1 &8245611004865813786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9144847057941891996}
+  - component: {fileID: 2149705514712066987}
+  - component: {fileID: 2228206283728776805}
+  - component: {fileID: 891303313953585335}
+  m_Layer: 23
+  m_Name: Strip Club_LOD_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9144847057941891996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8245611004865813786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9122144623072214171}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2149705514712066987
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8245611004865813786}
+  m_Mesh: {fileID: 4300000, guid: 18f8cc01df42af54e8ba70359413d421, type: 2}
+--- !u!23 &2228206283728776805
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8245611004865813786}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1dad656cad5a42a41aa8ff44a44935cf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &891303313953585335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8245611004865813786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c05d127a4a4ea99fb37427208e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    optimize:
+      PercentTriangles: 0.25
+      AbsoluteTriangles: 0
+      MaxDeviation: 0
+      WeldingThreshold: 0
+      ScreenSizeInPixels: 0
+      HardAngleThreshold: 80
+      SilhouetteImportance: 3
+      TextureImportance: 3
+      ShadingImportance: 3
+      SkinningImportance: 3
+      SkeletonSettings:
+        LeafBoneWeldDistance: 0
+        MaximumBoneDepth: 0
+        MaximumBoneInfluencesPerVertex: 4
+        MinimumBoneInfluenceThreshold: 0
+        IgnoreJointIndicesCount: 0
+    remeshing:
+      SurfaceMode: 0
+      Resolution: 256
+      FaceCountTarget: 2
+      MaximumTriangles: 0
+      ScreenSizeInPixels: 0
+      ScreenSizePixelMergeDistance: 2
+      HardAngleThreshold: 70
+      WeldDistance: 0
+      GutterSizeInPixels: 2
+      UnwrapStrategy: 3
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 1
+    imposterize:
+      Type: 1
+      QuadXYCount: 1
+      QuadXZCount: 0
+      QuadYZCount: 1
+      CloudFaceCount: 700
+      CloudPolyFaceFactor: 0.5
+      QuadSubdivisionsU: 1
+      QuadSubdivisionsV: 1
+      AABBDisplacement: 0
+      FlipbookFramesPerAxis: 8
+      GutterSizeInPixels: 2
+      AlphaCutOutResolution: 16
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 0
+    operationType: 0
+--- !u!1 &8490286508379809313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9122144623072214171}
+  - component: {fileID: 5275832416399422270}
+  - component: {fileID: 7985852908168710132}
+  - component: {fileID: 6585761305211978541}
+  - component: {fileID: 8004655235209252982}
+  m_Layer: 23
+  m_Name: Strip Club
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9122144623072214171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490286508379809313}
+  m_LocalRotation: {x: 0.000000021855694, y: -1.1102232e-16, z: 1.1102232e-16, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5572520625922041280}
+  - {fileID: 9144847057941891996}
+  m_Father: {fileID: 754389392093493683}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5275832416399422270
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490286508379809313}
+  m_Mesh: {fileID: 7360241940861761245, guid: b568b045f38de9940bceb0b01af55497, type: 3}
+--- !u!23 &7985852908168710132
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490286508379809313}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1dad656cad5a42a41aa8ff44a44935cf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &6585761305211978541
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490286508379809313}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.000000029802322, y: 0.05873573, z: 0.009556249}
+  m_Size: 0.15420356
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7985852908168710132}
+  - screenRelativeHeight: 0.05
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2317449691462466839}
+  - screenRelativeHeight: 0.02
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2228206283728776805}
+  m_Enabled: 1
+--- !u!114 &8004655235209252982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490286508379809313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c05d127a4a4ea99fb37427208e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    optimize:
+      PercentTriangles: 1
+      AbsoluteTriangles: 0
+      MaxDeviation: 0
+      WeldingThreshold: 0
+      ScreenSizeInPixels: 0
+      HardAngleThreshold: 80
+      SilhouetteImportance: 3
+      TextureImportance: 3
+      ShadingImportance: 3
+      SkinningImportance: 3
+      SkeletonSettings:
+        LeafBoneWeldDistance: 0
+        MaximumBoneDepth: 0
+        MaximumBoneInfluencesPerVertex: 4
+        MinimumBoneInfluenceThreshold: 0
+        IgnoreJointIndicesCount: 0
+    remeshing:
+      SurfaceMode: 0
+      Resolution: 256
+      FaceCountTarget: 2
+      MaximumTriangles: 0
+      ScreenSizeInPixels: 0
+      ScreenSizePixelMergeDistance: 2
+      HardAngleThreshold: 70
+      WeldDistance: 0
+      GutterSizeInPixels: 2
+      UnwrapStrategy: 3
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 1
+    imposterize:
+      Type: 1
+      QuadXYCount: 1
+      QuadXZCount: 0
+      QuadYZCount: 1
+      CloudFaceCount: 700
+      CloudPolyFaceFactor: 0.5
+      QuadSubdivisionsU: 1
+      QuadSubdivisionsV: 1
+      AABBDisplacement: 0
+      FlipbookFramesPerAxis: 8
+      GutterSizeInPixels: 2
+      AlphaCutOutResolution: 16
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 0
+    operationType: 0

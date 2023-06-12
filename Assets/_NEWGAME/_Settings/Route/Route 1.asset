@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ee338f70f9645af95c13a50765584c8, type: 3}
+  m_Name: Route 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Route:
+    waypointsIds: 23f91f9e97120356c0343783bf343783be6dc74059e26ee3fa8c54a3c5343783c6343783c3343783c4343783c9343783ca343783c7343783c834378390922d6b96922d6b97922d6b3e955f6840955f68d409070b55ea04db18ba7068ae2e180bb12e180b4ca3bfade7176750828c0ef350a3bfadeb176750868c0ef3fc64cbf5fd64cbf50265cbf50365cbf50065cbf50165cbf563a9de2523f91f9e

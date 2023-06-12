@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: Handgun_Makarov
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: Makarov
+    weaponType: 0
+    <Price>k__BackingField:
+      Balance: 20000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: 89ae144513c48d445ad89590f72d24ae, type: 3}
+    ImageFront: {fileID: 21300000, guid: 458f87b9c6f9c2748819782f9fa87bb7, type: 3}
+    ImageFrontYellowGlow: {fileID: 21300000, guid: cc4590a78576ce248bc1060fb6bbdffc,
+      type: 3}
+    <Model>k__BackingField: {fileID: 2242375525175523081, guid: 441a3d85007955e449b7d17f5f33f9b2,
+      type: 3}
+    FireRate: 0.75
+    ReloadSeconds: 1
+    Damage: 60
+    ClipSize: 18
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 1

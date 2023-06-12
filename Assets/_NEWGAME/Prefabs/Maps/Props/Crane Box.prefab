@@ -1,0 +1,558 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1190226531770856208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5631772340612880440}
+  m_Layer: 23
+  m_Name: Crane Box
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5631772340612880440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190226531770856208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -175.39, y: -3.7299995, z: -512.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3036661521431903692}
+  - {fileID: 1543795416539634445}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2172838850429764023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543795416539634445}
+  - component: {fileID: 5527222529119407899}
+  m_Layer: 23
+  m_Name: cranee_collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543795416539634445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2172838850429764023}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 145, y: 172, z: 143}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5631772340612880440}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
+--- !u!64 &5527222529119407899
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2172838850429764023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9065309110906110101, guid: 18c42dff19d13cc45aeb58bc96cdf7b9, type: 3}
+--- !u!1 &2409341395991783286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3036661521431903692}
+  - component: {fileID: 2128997584201888361}
+  - component: {fileID: 4210671365324555939}
+  - component: {fileID: 5686997954190722748}
+  - component: {fileID: 3447278296406680706}
+  m_Layer: 23
+  m_Name: Crane Box Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3036661521431903692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409341395991783286}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5382825148743696596}
+  - {fileID: 3464786541552955580}
+  m_Father: {fileID: 5631772340612880440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &2128997584201888361
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409341395991783286}
+  m_Mesh: {fileID: 8342912606664370237, guid: 8b7557f284ab23f438daf0050abf443d, type: 3}
+--- !u!23 &4210671365324555939
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409341395991783286}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dd030488e07b5df49afc9b1f9e307c94, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &5686997954190722748
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409341395991783286}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.1460001, y: -0.0000005066395, z: 1.1945013}
+  m_Size: 2.6196342
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.249
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4210671365324555939}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 656188957238316918}
+  - screenRelativeHeight: 0.025
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7668514143764533658}
+  m_Enabled: 1
+--- !u!114 &3447278296406680706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409341395991783286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c05d127a4a4ea99fb37427208e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    optimize:
+      PercentTriangles: 1
+      AbsoluteTriangles: 0
+      MaxDeviation: 0
+      WeldingThreshold: 0
+      ScreenSizeInPixels: 0
+      HardAngleThreshold: 80
+      SilhouetteImportance: 3
+      TextureImportance: 3
+      ShadingImportance: 3
+      SkinningImportance: 3
+      SkeletonSettings:
+        LeafBoneWeldDistance: 0
+        MaximumBoneDepth: 0
+        MaximumBoneInfluencesPerVertex: 4
+        MinimumBoneInfluenceThreshold: 0
+        IgnoreJointIndicesCount: 0
+    remeshing:
+      SurfaceMode: 0
+      Resolution: 256
+      FaceCountTarget: 2
+      MaximumTriangles: 0
+      ScreenSizeInPixels: 0
+      ScreenSizePixelMergeDistance: 2
+      HardAngleThreshold: 70
+      WeldDistance: 0
+      GutterSizeInPixels: 2
+      UnwrapStrategy: 3
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 1
+    imposterize:
+      Type: 1
+      QuadXYCount: 1
+      QuadXZCount: 0
+      QuadYZCount: 1
+      CloudFaceCount: 700
+      CloudPolyFaceFactor: 0.5
+      QuadSubdivisionsU: 1
+      QuadSubdivisionsV: 1
+      AABBDisplacement: 0
+      FlipbookFramesPerAxis: 8
+      GutterSizeInPixels: 2
+      AlphaCutOutResolution: 16
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 0
+    operationType: 0
+--- !u!1 &3985537448166294978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5382825148743696596}
+  - component: {fileID: 4765431596359155034}
+  - component: {fileID: 656188957238316918}
+  - component: {fileID: 1620923640623464654}
+  m_Layer: 23
+  m_Name: Crane Box Mesh_LOD_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5382825148743696596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985537448166294978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3036661521431903692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4765431596359155034
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985537448166294978}
+  m_Mesh: {fileID: 4300000, guid: a21e4cb506a19cf45852b7637d481d4a, type: 2}
+--- !u!23 &656188957238316918
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985537448166294978}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dd030488e07b5df49afc9b1f9e307c94, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1620923640623464654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985537448166294978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c05d127a4a4ea99fb37427208e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    optimize:
+      PercentTriangles: 0.9
+      AbsoluteTriangles: 0
+      MaxDeviation: 0
+      WeldingThreshold: 0
+      ScreenSizeInPixels: 0
+      HardAngleThreshold: 80
+      SilhouetteImportance: 3
+      TextureImportance: 3
+      ShadingImportance: 3
+      SkinningImportance: 3
+      SkeletonSettings:
+        LeafBoneWeldDistance: 0
+        MaximumBoneDepth: 0
+        MaximumBoneInfluencesPerVertex: 4
+        MinimumBoneInfluenceThreshold: 0
+        IgnoreJointIndicesCount: 0
+    remeshing:
+      SurfaceMode: 0
+      Resolution: 256
+      FaceCountTarget: 2
+      MaximumTriangles: 0
+      ScreenSizeInPixels: 0
+      ScreenSizePixelMergeDistance: 2
+      HardAngleThreshold: 70
+      WeldDistance: 0
+      GutterSizeInPixels: 2
+      UnwrapStrategy: 3
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 1
+    imposterize:
+      Type: 1
+      QuadXYCount: 1
+      QuadXZCount: 0
+      QuadYZCount: 1
+      CloudFaceCount: 700
+      CloudPolyFaceFactor: 0.5
+      QuadSubdivisionsU: 1
+      QuadSubdivisionsV: 1
+      AABBDisplacement: 0
+      FlipbookFramesPerAxis: 8
+      GutterSizeInPixels: 2
+      AlphaCutOutResolution: 16
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 0
+    operationType: 0
+--- !u!1 &6678346816492369687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3464786541552955580}
+  - component: {fileID: 4132577487845220007}
+  - component: {fileID: 7668514143764533658}
+  - component: {fileID: 135109602168293514}
+  m_Layer: 23
+  m_Name: Crane Box Mesh_LOD_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3464786541552955580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678346816492369687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3036661521431903692}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4132577487845220007
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678346816492369687}
+  m_Mesh: {fileID: 4300000, guid: f5a1628fd0872814d9b131e27496ec34, type: 2}
+--- !u!23 &7668514143764533658
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678346816492369687}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dd030488e07b5df49afc9b1f9e307c94, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &135109602168293514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678346816492369687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c05d127a4a4ea99fb37427208e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    optimize:
+      PercentTriangles: 0.8
+      AbsoluteTriangles: 0
+      MaxDeviation: 0
+      WeldingThreshold: 0
+      ScreenSizeInPixels: 0
+      HardAngleThreshold: 80
+      SilhouetteImportance: 3
+      TextureImportance: 3
+      ShadingImportance: 3
+      SkinningImportance: 3
+      SkeletonSettings:
+        LeafBoneWeldDistance: 0
+        MaximumBoneDepth: 0
+        MaximumBoneInfluencesPerVertex: 4
+        MinimumBoneInfluenceThreshold: 0
+        IgnoreJointIndicesCount: 0
+    remeshing:
+      SurfaceMode: 0
+      Resolution: 256
+      FaceCountTarget: 2
+      MaximumTriangles: 0
+      ScreenSizeInPixels: 0
+      ScreenSizePixelMergeDistance: 2
+      HardAngleThreshold: 70
+      WeldDistance: 0
+      GutterSizeInPixels: 2
+      UnwrapStrategy: 3
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 1
+    imposterize:
+      Type: 1
+      QuadXYCount: 1
+      QuadXZCount: 0
+      QuadYZCount: 1
+      CloudFaceCount: 700
+      CloudPolyFaceFactor: 0.5
+      QuadSubdivisionsU: 1
+      QuadSubdivisionsV: 1
+      AABBDisplacement: 0
+      FlipbookFramesPerAxis: 8
+      GutterSizeInPixels: 2
+      AlphaCutOutResolution: 16
+      BakeOutput:
+        Width: 1024
+        Height: 1024
+        SourceMeshUVChannelIndex: 0
+        SuperSampling: 0
+    operationType: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: SMG_Bizon
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: Bizon
+    weaponType: 1
+    <Price>k__BackingField:
+      Balance: 50000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: cf1a907dfe0edd2479144d66e32adeb3, type: 3}
+    ImageFront: {fileID: 21300000, guid: f22197f5197001a4da8f282b72b56c1e, type: 3}
+    <Model>k__BackingField: {fileID: 919132149155446097, guid: e1906d608f7484e4484a513db6257464,
+      type: 3}
+    FireRate: 60
+    ReloadSeconds: 0
+    Damage: 40
+    ClipSize: 0
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 2

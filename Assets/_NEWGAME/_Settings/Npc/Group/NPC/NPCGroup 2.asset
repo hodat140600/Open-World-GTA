@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e02243bd6725b4599007760083dd4b, type: 3}
+  m_Name: NPCGroup 2
+  m_EditorClassIdentifier: 
+  npcSettings:
+  - {fileID: 11400000, guid: 8b51d743691de5e4c8b40bace3c04bd6, type: 2}
+  - {fileID: 11400000, guid: cc6a6a22a9f902f4cb9d38c739a1a34a, type: 2}
+  - {fileID: 11400000, guid: 58aca8dc987811e459339abef774f1d9, type: 2}
+  npcGroup:
+    <Name>k__BackingField: NPCGroup 2
+    npcIds: 0a6bbc76096bbc76086bbc76
+    unitSpacing: 1
+    leaderId: 1992059658
+    formationType: 2
+    npcList: []

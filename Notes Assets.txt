@@ -1,0 +1,4 @@
+/Assets/MyAsset/Building/texture
+/Assets/MyAsset/Decorations/texture
+C:\Users\ADMIN\Thach\RocketStudio\GTA\GTA\Assets\MyAsset\industrial\Texture
+https://drive.google.com/drive/u/3/folders/1-dijsx4gy2j3K4SdeNglQJui_DJU_0KT

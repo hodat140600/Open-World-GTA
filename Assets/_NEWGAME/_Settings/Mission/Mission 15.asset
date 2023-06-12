@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4426f975e112ae468c5ed359fa3e6e9, type: 3}
+  m_Name: Mission 15
+  m_EditorClassIdentifier: 
+  <Mission>k__BackingField:
+    order: 15
+    cash: 0
+    subMissions:
+    - rid: 8970675888952705032
+    - rid: 6368625679674376203
+    - rid: 8970675888952705038
+    - rid: 5979764732955721734
+    - rid: 5979764732955721731
+    - rid: 5979764732955721733
+    - rid: 5979764732955721740
+    - rid: 5979764732955721732
+  references:
+    version: 2
+    RefIds:
+    - rid: 5979764732955721731
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Obunga
+        rewardCash: 1000
+        <Count>k__BackingField: 4
+        <Type>k__BackingField: 55
+    - rid: 5979764732955721732
+      type: {class: RunQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Run 200m
+        rewardCash: 3000
+        <Distance>k__BackingField: 200
+    - rid: 5979764732955721733
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Quandaledingle
+        rewardCash: 1000
+        <Count>k__BackingField: 4
+        <Type>k__BackingField: 57
+    - rid: 5979764732955721734
+      type: {class: KillWithWeaponQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill using RPG
+        rewardCash: 8000
+        <Count>k__BackingField: 100
+        <WeaponType>k__BackingField: 4
+    - rid: 5979764732955721740
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill SuperIdol
+        rewardCash: 1000
+        <Count>k__BackingField: 4
+        <Type>k__BackingField: 59
+    - rid: 6368625679674376203
+      type: {class: GoToQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 0
+        questDescription: Go to Mission
+        rewardCash: 100
+        waypointName: 257
+        <Position>k__BackingField: {x: -328.3615, y: 7.0149884, z: 34.884888}
+    - rid: 8970675888952705032
+      type: {class: SpawnTommyAtSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: 
+        rewardCash: 0
+        waypointName: w192
+        <Position>k__BackingField: {x: -342.2818, y: 7.204772, z: 39.150627}
+    - rid: 8970675888952705038
+      type: {class: SpawnNpc, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: 
+        rewardCash: 0
+        SpawnEnemySetting:
+          enemySpawns:
+          - enemySetting: {fileID: 11400000, guid: 846b4f53d3fab9b4b91988f8f8f38d85,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 5b47a1423e9590e46992e2e3c60c96b2,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: f0f8bd37fcb5a004cbfd3a6dfc3dcd33,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 5be341b05dfa80746b1930902af93904,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 2793046783e61d040a2c5e5e35568c9e,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: c13b4f7996ea9f543a1e24de4bf4d735,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 80e05ce4fb38aa742b32c0e59d49d2c1,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: c6137e116017c674db62b9d9f46893d5,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 7a8b76ec6a806a0448483077bb0b89d8,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 3f74f34ab1b365b4fa1ea6318e217c16,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 3127be6455a455b4d91f1b1cc14a0a2b,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: b104bf89ee460ca4cbbc8e7b905529f2,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 063bec7194b2488479553d5ae172e24c,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1

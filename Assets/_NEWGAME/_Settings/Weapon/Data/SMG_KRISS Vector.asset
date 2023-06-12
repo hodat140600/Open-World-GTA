@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: SMG_KRISS Vector
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: KRISS Vector
+    weaponType: 1
+    <Price>k__BackingField:
+      Balance: 50000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: 9d4506156a75f024681e0ecf8af6a05a, type: 3}
+    ImageFront: {fileID: 21300000, guid: 060b0fcf3944664428528de72ab8915c, type: 3}
+    ImageFrontYellowGlow: {fileID: 21300000, guid: fcf40202fa38c9d4ba8c7654c9462c04,
+      type: 3}
+    <Model>k__BackingField: {fileID: 5893178512478601280, guid: e511000ac7a68d54c962c9d79e9262ad,
+      type: 3}
+    FireRate: 0.125
+    ReloadSeconds: 1
+    Damage: 50
+    ClipSize: 40
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 2

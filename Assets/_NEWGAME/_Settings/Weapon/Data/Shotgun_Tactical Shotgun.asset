@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: Shotgun_Tactical Shotgun
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: Tactical Shotgun
+    weaponType: 3
+    <Price>k__BackingField:
+      Balance: 40000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: 167184a1f427f9e4fb9c82f4347d6ff9, type: 3}
+    ImageFront: {fileID: 21300000, guid: 03d8525d01b18d04f937b4e44f960ed5, type: 3}
+    ImageFrontYellowGlow: {fileID: 21300000, guid: b8d3079e7bb061b498698471f7206ded,
+      type: 3}
+    <Model>k__BackingField: {fileID: 3002053402040248151, guid: 13e997a8024818f468e355e5c8efbbbc,
+      type: 3}
+    FireRate: 0.8
+    ReloadSeconds: 1
+    Damage: 300
+    ClipSize: 5
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 3

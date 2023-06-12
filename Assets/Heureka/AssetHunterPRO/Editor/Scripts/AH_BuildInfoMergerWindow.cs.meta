@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Heureka/AssetHunterPRO/Editor/Scripts/AH_BuildInfoMergerWindow.cs.meta
+guid: 49792b455df9c0341a51d3ed9126a9cc
+========
+guid: 571e6e6ac5da96c43b2b6e5e96627154
+>>>>>>>> main:Assets/_GAME/_Scripts/Mission/UI/MissionPanel.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

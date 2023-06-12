@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4426f975e112ae468c5ed359fa3e6e9, type: 3}
+  m_Name: _DEFAULT_MISSION
+  m_EditorClassIdentifier: 
+  <Mission>k__BackingField:
+    order: 0
+    cash: 0
+    subMissions:
+    - rid: 8970675888952705032
+    - rid: 8970675888952705033
+    - rid: 6368625679674376203
+    - rid: 8970675888952705038
+    - rid: 6368625679674376196
+    - rid: 6368625723701985280
+    - rid: 6368625679674376204
+  references:
+    version: 2
+    RefIds:
+    - rid: 6368625679674376196
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Obunga
+        rewardCash: 100
+        <Count>k__BackingField: 10
+        <Type>k__BackingField: 55
+    - rid: 6368625679674376203
+      type: {class: GoToQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 1
+        questDescription: Go to Mission
+        rewardCash: 100
+        waypointName: w76
+        <Position>k__BackingField: {x: -44.2787, y: 7.2047725, z: 325.89215}
+    - rid: 6368625679674376204
+      type: {class: RunQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Run 100m
+        rewardCash: 200
+        <Distance>k__BackingField: 100
+    - rid: 6368625723701985280
+      type: {class: HeadshotQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Eyeshot 10 enemies
+        rewardCash: 100
+        <Count>k__BackingField: 10
+    - rid: 8970675888952705032
+      type: {class: SpawnTommyAtSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 0
+        questDescription: Go to Mission
+        rewardCash: 0
+        waypointName: w77
+        <Position>k__BackingField: {x: -48.8269, y: 7.2047725, z: 319.99942}
+    - rid: 8970675888952705033
+      type: {class: DelaySubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 0
+        questDescription: Wait for it
+        rewardCash: 0
+        <DelaySeconds>k__BackingField: 1
+    - rid: 8970675888952705038
+      type: {class: SpawnNpc, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: KILL THEM
+        rewardCash: 0
+        SpawnEnemySetting:
+          enemySpawns:
+          - enemySetting: {fileID: 11400000, guid: 846b4f53d3fab9b4b91988f8f8f38d85,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1

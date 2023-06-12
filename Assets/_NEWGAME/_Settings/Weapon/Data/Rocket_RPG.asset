@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: Rocket_RPG
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: RPG
+    weaponType: 4
+    <Price>k__BackingField:
+      Balance: 40000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: 79c50dfcb8be05d4a9d29a9373099017, type: 3}
+    ImageFront: {fileID: 21300000, guid: 82452bff99f620f40a9a32a788835544, type: 3}
+    ImageFrontYellowGlow: {fileID: 21300000, guid: 56cd54e7dffcadd49861d0ac3fe5fdab,
+      type: 3}
+    <Model>k__BackingField: {fileID: 5073829402692976875, guid: 5d2336106a68ccd42b8f3ca2ee2be05f,
+      type: 3}
+    FireRate: 1.5
+    ReloadSeconds: 1
+    Damage: 800
+    ClipSize: 200
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 4

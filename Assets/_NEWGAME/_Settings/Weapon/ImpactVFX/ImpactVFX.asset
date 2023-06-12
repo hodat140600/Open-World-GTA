@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d8baf4d1ebc1b429622c2224b61672, type: 3}
+  m_Name: ImpactVFX
+  m_EditorClassIdentifier: 
+  lstImpactInfos:
+  - MaterialType: 0
+    ImpactEffect: {fileID: 1559380069312186, guid: 70293ccb9b36ad84ebb90509a675fc1e,
+      type: 3}
+  - MaterialType: 1
+    ImpactEffect: {fileID: 1554942521179580, guid: 52aa1f2e1567b6e47b50df0d054982a7,
+      type: 3}
+  - MaterialType: 2
+    ImpactEffect: {fileID: 1901339426860100, guid: 50165a7e39a936f44ab5b824429e3417,
+      type: 3}
+  - MaterialType: 3
+    ImpactEffect: {fileID: 1092770201167676, guid: f9c851a5a12292f4d9a24acc3899803b,
+      type: 3}
+  - MaterialType: 4
+    ImpactEffect: {fileID: 1276244140803500, guid: 4fbc0156e9dd2ab41a17e56a2f515d2a,
+      type: 3}
+  - MaterialType: 5
+    ImpactEffect: {fileID: 1040042305273530, guid: e70de6a15623744499bf326c13e310f0,
+      type: 3}

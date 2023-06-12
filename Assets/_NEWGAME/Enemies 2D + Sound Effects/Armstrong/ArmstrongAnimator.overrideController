@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ArmstrongAnimator
+  m_Controller: {fileID: 9100000, guid: 76ee871f448a446409440034a8aa683c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9a4debe17fd436d40802a1e72d852d16, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c77ffa8d672ece64bb9633cc2f3cf35b, type: 2}

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36322428df972c41a2005968bbcf7ff, type: 3}
+  m_Name: AIMeleeSkill
+  m_EditorClassIdentifier: 
+  AIMeleeSkill:
+    <Name>k__BackingField: AIMelee
+    _AIMeleeSkillLevel:
+    - maxHealth: 200
+      chaseSpeed: 1.5
+      stateRoutine: 0.15
+      destinationRoutine: 0.25
+      findTarget: 0.25
+      detectLayer:
+        serializedVersion: 2
+        m_Bits: 256
+      AIState: 2
+      fieldOfViewToDetect: 90
+      detectDistance: 10
+      distanceToLostTarget: 10
+      agressiveAtFirestSight: 0
+      passiveToDamage: 1
+      timeBetweenAttack: 1
+      damage: 10
+      levelType: 0
+    - maxHealth: 1
+      chaseSpeed: 1.5
+      stateRoutine: 0.1
+      destinationRoutine: 3
+      findTarget: 0.15
+      detectLayer:
+        serializedVersion: 2
+        m_Bits: 256
+      AIState: 0
+      fieldOfViewToDetect: 360
+      detectDistance: 200
+      distanceToLostTarget: 200
+      agressiveAtFirestSight: 1
+      passiveToDamage: 0
+      timeBetweenAttack: 2.5
+      damage: 10
+      levelType: 1
+    - maxHealth: 2
+      chaseSpeed: 2
+      stateRoutine: 0.1
+      destinationRoutine: 2
+      findTarget: 0.15
+      detectLayer:
+        serializedVersion: 2
+        m_Bits: 256
+      AIState: 0
+      fieldOfViewToDetect: 360
+      detectDistance: 200
+      distanceToLostTarget: 200
+      agressiveAtFirestSight: 1
+      passiveToDamage: 0
+      timeBetweenAttack: 2.5
+      damage: 10
+      levelType: 2
+    - maxHealth: 200
+      chaseSpeed: 1.5
+      stateRoutine: 0.1
+      destinationRoutine: 1
+      findTarget: 0.15
+      detectLayer:
+        serializedVersion: 2
+        m_Bits: 256
+      AIState: 0
+      fieldOfViewToDetect: 360
+      detectDistance: 200
+      distanceToLostTarget: 200
+      agressiveAtFirestSight: 1
+      passiveToDamage: 0
+      timeBetweenAttack: 0.5
+      damage: 30
+      levelType: 3

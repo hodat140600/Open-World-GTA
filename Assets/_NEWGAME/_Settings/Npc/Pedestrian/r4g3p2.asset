@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5140d958e50343bfe3b8f908f42ab, type: 3}
+  m_Name: r4g3p2
+  m_EditorClassIdentifier: 
+  pedestrian:
+    _id: 1992065133
+    <Name>k__BackingField: r4g3p2
+    <ModelType>k__BackingField: 2
+    <Variant>k__BackingField: 1
+    routeSettings: {fileID: 11400000, guid: b5a712023ace63148abfc96a48cb4fd3, type: 2}
+    startWaypoint: 4
+    AIMeleeLevel: 0

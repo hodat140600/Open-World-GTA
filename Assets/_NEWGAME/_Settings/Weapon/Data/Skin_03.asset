@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffcc1310569458da51575b0b09049d7, type: 3}
+  m_Name: Skin_03
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Entity:
+    <Name>k__BackingField: Neon
+    weaponType: 5
+    <Price>k__BackingField:
+      Balance: 30000
+      Currency: 0
+    ImageSide: {fileID: 21300000, guid: 9f883e3ecdb86b6468e008901df74351, type: 3}
+    ImageFront: {fileID: 0}
+    ImageFrontYellowGlow: {fileID: 0}
+    <Model>k__BackingField: {fileID: 0}
+    FireRate: 0
+    ReloadSeconds: 0
+    Damage: 0
+    ClipSize: 0
+    <Material>k__BackingField: {fileID: 2100000, guid: 1dca356a614d67f42b5b2d9a9e977413,
+      type: 2}
+    <Description>k__BackingField: The ultimate clothes with neon style. Making the
+      user feel super high-tech.
+    Automatic: 0
+    MovesetId: 1
+    AnimatorId: 0

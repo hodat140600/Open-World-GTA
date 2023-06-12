@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Heureka/AssetHunterPRO/Editor/Scripts/AH_BuildInfoManager.cs.meta
+guid: d9fd5489ebed282448ffce56090fefd7
+========
+guid: b8f26b8ec5054a29b6d9b531d9615abb
+>>>>>>>> main:Assets/_GAME/_Scripts/Mission/Model/MissionSettings.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

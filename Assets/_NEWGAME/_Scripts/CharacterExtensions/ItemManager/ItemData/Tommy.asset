@@ -1,0 +1,825 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8851992042307665642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Bizon
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 1972263138
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 1b05cab74c32a4843b8b995dc46a76fb, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 6376279832319459290, guid: 1e68227c7e1dd2247a2fe181596f078f,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-8477119481303173922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: RPG
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 1485701583
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 7b6efe6ef1a14714aa70c247bf37bae5, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 677650552713533169, guid: a94f3f48136e1cb40a9bfa1c9223904d,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-8235918893546909030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: RPG Ammo
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 4
+  description: RPG Ammo
+  type: 3
+  icon: {fileID: 0}
+  stackable: 1
+  maxStack: 10
+  amount: 0
+  originalObject: {fileID: 1273478506532076, guid: 51167016d084309499498271caa6d1c7,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-5341732453508978618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Luger
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -884496309
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: fda03e8c6c0778f40a87d832c687cf1c, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1445368338156956075, guid: d74221c394ff14748b278106963c4fdd,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-5022268631902647276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: AK 47
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -1355286609
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 5ffafbe315ce30349a0c0a3dcf2f4f44, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 771233181445286766, guid: 87b704b9e7151ba4c9edf70f97b36500,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-3797343301740084799
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: SMG Ammo
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 2
+  description: SMG Ammo
+  type: 3
+  icon: {fileID: 0}
+  stackable: 1
+  maxStack: 50
+  amount: 0
+  originalObject: {fileID: 1000010710861650, guid: ff5f5f6b309ae8f4fb6bfc58aaa0a16c,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-3501978270938424532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: M4
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -1491130845
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 5ffafbe315ce30349a0c0a3dcf2f4f44, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 4005612408740320794, guid: 7991de7ae6de61b44b98410aa298eec4,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-2465197134218507953
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: FN P90
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 34795251
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 1b05cab74c32a4843b8b995dc46a76fb, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1235122346467668018, guid: 97dfff72d2e6a5749831b19cd5a2f1b4,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-1917605051513869091
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: CQB Shotgun
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -1264285978
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 271132a8ca09aa347a14951fb75196c4, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 7496981142877478804, guid: b852dad19721611489d5c37cecb82bb5,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea01cf423936804982937b6133f5278, type: 3}
+  m_Name: Tommy
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 7817384075268154}
+  - {fileID: -3501978270938424532}
+  - {fileID: -5022268631902647276}
+  - {fileID: -1917605051513869091}
+  - {fileID: -5341732453508978618}
+  - {fileID: 5546788552662367469}
+  - {fileID: 4790867230281775616}
+  - {fileID: 2359963020670389191}
+  - {fileID: 7615003068383554875}
+  - {fileID: 7440368122534024972}
+  - {fileID: 2927550481043988706}
+  - {fileID: -3797343301740084799}
+  - {fileID: 9182275008332489155}
+  - {fileID: -8235918893546909030}
+  - {fileID: -2465197134218507953}
+  - {fileID: 6672815964251577635}
+  - {fileID: 7958248814183066594}
+  - {fileID: -8477119481303173922}
+  - {fileID: 2181123924892440759}
+  - {fileID: -8851992042307665642}
+  inEdition: 0
+  itemsHidden: 1
+--- !u!114 &7817384075268154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: MSBS
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -1908458519
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 5ffafbe315ce30349a0c0a3dcf2f4f44, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 2181752219492778082, guid: 996a2561782191345b3a799ec3f77bd7,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2181123924892440759
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: MP7
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 1485701708
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 1b05cab74c32a4843b8b995dc46a76fb, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 4844784234027743024, guid: 69192b88909dc0e44b246b8e69a0c729,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2359963020670389191
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Tactical Shotgun
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -123144993
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 271132a8ca09aa347a14951fb75196c4, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 3002053402040248151, guid: b4447128d2adbd84397b275f778846c5,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2927550481043988706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: AssaultRifle Ammo
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 1
+  description: AssaultRifle Ammo
+  type: 3
+  icon: {fileID: 0}
+  stackable: 1
+  maxStack: 50
+  amount: 0
+  originalObject: {fileID: 1000010710861650, guid: e73e7442510dda348abac3a33f8e29e9,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4790867230281775616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: ARX200
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -267729093
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 5ffafbe315ce30349a0c0a3dcf2f4f44, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 8486484123760357369, guid: 14ec55ca41b68f249af8bda1b96fe82b,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &5546788552662367469
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Glock
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -420597516
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: fda03e8c6c0778f40a87d832c687cf1c, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1250668321243758721, guid: 7786c2b63ecb6c04aa861e1071c3a69e,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6672815964251577635
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Makarov
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 85227859
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: fda03e8c6c0778f40a87d832c687cf1c, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 8812578720740681561, guid: b6eb5ae05f5df3b4f9aef70e2f3e4bdb,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7440368122534024972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Handgun Ammo
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 0
+  description: Handgun Ammo
+  type: 3
+  icon: {fileID: 0}
+  stackable: 1
+  maxStack: 50
+  amount: 0
+  originalObject: {fileID: 1000010710861650, guid: 1db2225b4dce58e409c91aea33a95291,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes:
+  - name: 6
+    value: 200
+    isOpen: 0
+    isBool: 0
+  - name: 2
+    value: 0
+    isOpen: 0
+    isBool: 0
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7615003068383554875
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: KRISS Vector
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: -99687869
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 1b05cab74c32a4843b8b995dc46a76fb, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 6923281815606168852, guid: 43dca33a37c3b294aa30e6f559cd9b81,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7958248814183066594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Javelin
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 327222049
+  description: 
+  type: 2
+  icon: {fileID: 21300000, guid: 7b6efe6ef1a14714aa70c247bf37bae5, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 8238319097448579699, guid: be1c85be555f58441b05f474ef83f8f5,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 0
+  canBeDestroyed: 0
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &9182275008332489155
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd143a65870c71b4dae2d912cbc014d0, type: 3}
+  m_Name: Shotgun Ammo
+  m_EditorClassIdentifier: 
+  LeoId: 0
+  id: 3
+  description: Shotgun Ammo
+  type: 3
+  icon: {fileID: 0}
+  stackable: 1
+  maxStack: 50
+  amount: 0
+  originalObject: {fileID: 1000010710861650, guid: d33c52bd69cda3f4fa8d61d2ff29b11b,
+    type: 3}
+  dropObject: {fileID: 0}
+  attributes: []
+  isInEquipArea: 0
+  isEquiped: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: 
+  twoHandWeapon: 0
+  onDestroy:
+    m_PersistentCalls:
+      m_Calls: []

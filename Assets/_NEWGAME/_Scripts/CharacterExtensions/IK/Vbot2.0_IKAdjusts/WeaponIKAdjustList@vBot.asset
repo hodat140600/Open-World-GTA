@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9843a24f1b0512b4ab4b3e8ebce87a64, type: 3}
+  m_Name: WeaponIKAdjustList@vBot
+  m_EditorClassIdentifier: 
+  ikTargetPositionOffsetR: {x: 0, y: 0, z: 0}
+  ikTargetRotationOffsetR: {x: 0, y: 0, z: 0}
+  ikTargetPositionOffsetL: {x: 0, y: 0, z: 0}
+  ikTargetRotationOffsetL: {x: 0, y: 0, z: 0}
+  weaponIKAdjusts:
+  - {fileID: 11400000, guid: a0eb41cc121d5b749ae97620e56b90da, type: 2}
+  - {fileID: 11400000, guid: 1a7af01ebf37b164081152cfad75ab99, type: 2}
+  - {fileID: 11400000, guid: 534060fa91b0f32458e0dca8c1a8d266, type: 2}
+  - {fileID: 11400000, guid: 86783b25ed1d6be44b41faff10e26863, type: 2}
+  - {fileID: 11400000, guid: 131f6e7193f6228479275f7bca6bb93b, type: 2}

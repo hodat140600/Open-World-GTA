@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Heureka/AssetHunterPRO/Editor/Scripts/AH_BuildProcessor.cs.meta
+guid: 173fd4f00e5547f4bb3c260d9cbb16d5
+========
+guid: 56cc9959e071fcf4e869f85522b030be
+>>>>>>>> main:Assets/_GAME/_Scripts/GTA Scripts/NPC/NPC StateBehavior/ScaredNPCBehavior.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

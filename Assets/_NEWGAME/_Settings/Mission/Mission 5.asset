@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4426f975e112ae468c5ed359fa3e6e9, type: 3}
+  m_Name: Mission 5
+  m_EditorClassIdentifier: 
+  <Mission>k__BackingField:
+    order: 5
+    cash: 0
+    subMissions:
+    - rid: 8970675888952705032
+    - rid: 6368625679674376203
+    - rid: 8970675888952705038
+    - rid: 6368625679674376196
+    - rid: 6368625705471967232
+    - rid: 5979764732955721728
+    - rid: 5979764732955721729
+    - rid: 5979764732955721730
+  references:
+    version: 2
+    RefIds:
+    - rid: 5979764732955721728
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Juggler
+        rewardCash: 1000
+        <Count>k__BackingField: 3
+        <Type>k__BackingField: 54
+    - rid: 5979764732955721729
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Selene Delgado
+        rewardCash: 1000
+        <Count>k__BackingField: 3
+        <Type>k__BackingField: 58
+    - rid: 5979764732955721730
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Zhong Xina
+        rewardCash: 1000
+        <Count>k__BackingField: 3
+        <Type>k__BackingField: 61
+    - rid: 6368625679674376196
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Yoshie
+        rewardCash: 1000
+        <Count>k__BackingField: 3
+        <Type>k__BackingField: 60
+    - rid: 6368625679674376203
+      type: {class: GoToQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 1
+        hasQuest: 0
+        questDescription: Go to Mission
+        rewardCash: 100
+        waypointName: w129
+        <Position>k__BackingField: {x: 112.37506, y: 7.204772, z: 176.60954}
+    - rid: 6368625705471967232
+      type: {class: KillNpcQuest, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 1
+        questDescription: Kill Nerd
+        rewardCash: 1000
+        <Count>k__BackingField: 3
+        <Type>k__BackingField: 63
+    - rid: 8970675888952705032
+      type: {class: SpawnTommyAtSubMission, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: Go to Mission
+        rewardCash: 0
+        waypointName: w128
+        <Position>k__BackingField: {x: 67.06644, y: 7.204769, z: 170.30533}
+    - rid: 8970675888952705038
+      type: {class: SpawnNpc, ns: _GAME._Scripts, asm: Assembly-CSharp}
+      data:
+        blockBehind: 0
+        hasQuest: 0
+        questDescription: 
+        rewardCash: 0
+        SpawnEnemySetting:
+          enemySpawns:
+          - enemySetting: {fileID: 11400000, guid: b104bf89ee460ca4cbbc8e7b905529f2,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: c13b4f7996ea9f543a1e24de4bf4d735,
+              type: 2}
+            LimitInSpawn: 2
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 063bec7194b2488479553d5ae172e24c,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 80e05ce4fb38aa742b32c0e59d49d2c1,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 2793046783e61d040a2c5e5e35568c9e,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
+          - enemySetting: {fileID: 11400000, guid: 3f74f34ab1b365b4fa1ea6318e217c16,
+              type: 2}
+            LimitInSpawn: 1
+            isEndLessSpawn: 1
